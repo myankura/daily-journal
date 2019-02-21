@@ -1,0 +1,3 @@
+button.function recordEntry() {
+    
+};
