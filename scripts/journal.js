@@ -23,7 +23,7 @@ const objectsJournalEntry2 = {
 const objectsJournalEntry3 = {
     journalDate : "02/28/19",
     conceptsCovered : "Beggining of JavaScript",
-    journalEntry : "We have officially started working with JavaScript learning about functions, objects, and loops.  Shit is moving fast yo.",
+    journalEntry : "We have officially started working with JavaScript learning about functions, objects, and loops.",
     mood :"ok"
 }
 let arrayJournalEntry = [];
