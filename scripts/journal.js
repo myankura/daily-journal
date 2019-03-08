@@ -61,7 +61,7 @@ const renderJournalEntries = (entries) => {
        let entry = journalEntries[i];
        //assign makeJournalEntryComponent function to a variable.
        let journalEntry = makeJournalEntryComponent(entry);
-       //append journal entry to html
+       //append journal entry to DOM
        entryLogEl.innerHTML += journalEntry;
     }
 }
