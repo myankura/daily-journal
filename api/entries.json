@@ -1,18 +1,22 @@
-  [
-      {
-      "journalDate": "02/25/19",
-      "conceptsCovered": "GitHub",
-      "journalEntry": "Today we learned how to use GitHub for the first time.",
-      "mood": "ok"
-  }, {
-      "journalDate": "02/27/19",
-      "conceptsCovered": "Working with the DOM",
-      "journalEntry": "Today we started working with the DOM",
-      "mood": "ok"
-  }, {
-      "journalDate": "02/28/19",
-      "conceptsCovered": "Beggining of JavaScript",
-      "journalEntry": "We have officially started working with JavaScript learning about functions, objects, and loops.",
-      "mood": "ok"
-  }
+{
+    "entries": [
+    {
+        "journalDate": "02/25/19",
+        "conceptsCovered": "GitHub",
+        "journalEntry": "Today we learned how to use GitHub for the first time.",
+        "mood": "ok"
+    },
+    {
+        "journalDate": "02/27/19",
+        "conceptsCovered": "Working with the DOM",
+        "journalEntry": "Today we started working with the DOM",
+        "mood": "ok"
+    },
+    {
+        "journalDate": "02/28/19",
+        "conceptsCovered": "Beggining of JavaScript",
+        "journalEntry": "We have officially started working with JavaScript learning about functions, objects, and loops.",
+        "mood": "ok"
+    }
 ]
+}
