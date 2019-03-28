@@ -28,10 +28,11 @@ formContainer.appendChild(buildElement("label", "concept--label", "Concept cover
 formContainer.appendChild(buildElement("input", "concept--input"));
 //journal entry
 formContainer.appendChild(buildElement("label", "journalEntry--label", "Journal Entry: "));
-textAreaInput = formContainer.appendChild(buildElement("textArea", "journalEntry--input"));
+formContainer.appendChild(buildElement("textArea", "journalEntry--input"));
+//let textAreaInput = formContainer.appendChild(buildElement("textArea", "journalEntry--input"));
 //sizes the textArea element. It was a nice idea but it didn't pan out because of flexbox.
-textAreaInput.rows = "10";
-textAreaInput.cols = "5";
+// textAreaInput.rows = "10";
+// textAreaInput.cols = "5";
 //date of journal entry
 formContainer.appendChild(buildElement("label", "date--label", "Date covered: "));
 let dateInput = formContainer.appendChild(buildElement("input", "date--input"));
