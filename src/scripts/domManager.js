@@ -12,6 +12,7 @@ const buildElement = (elementType, elementId, elementTextContent) => {
     return htmlElement;
 };
 
+
 const buildOption = (optionValue, optionText) => {
     let optionElement = document.querySelector("#mood--select");
     optionElement = document.createElement("option");
@@ -27,14 +28,20 @@ formContainer.appendChild(buildElement("label", "concept--label", "Concept cover
 formContainer.appendChild(buildElement("input", "concept--input"));
 //journal entry
 formContainer.appendChild(buildElement("label", "journalEntry--label", "Journal Entry: "));
-formContainer.appendChild(buildElement("input", "journalEntry--input"));
+textAreaInput = formContainer.appendChild(buildElement("textArea", "journalEntry--input"));
+//sizes the textArea element. It was a nice idea but it didn't pan out because of flexbox.
+textAreaInput.rows = "10";
+textAreaInput.cols = "5";
 //date of journal entry
 formContainer.appendChild(buildElement("label", "date--label", "Date covered: "));
-formContainer.appendChild(buildElement("input", "date--input"));
+let dateInput = formContainer.appendChild(buildElement("input", "date--input"));
+dateInput.setAttribute("type", "date");
 //mood of the day
 formContainer.appendChild(buildElement("label", "mood--label", "Mood: "));
-formContainer.appendChild(buildElement("select", "mood--select"));
-formContainer.appendChild(buildOption("happy", "Happy!"));
+let selectElement = formContainer.appendChild(buildElement("select", "mood--select"));
+selectElement.appendChild(buildOption("happy", "Happy!"));
+selectElement.appendChild(buildOption("ok", "Ok"));
+selectElement.appendChild(buildOption("sad", "Sad"));
 //submit button
 formContainer.appendChild(buildElement("button", "submit--button", "Submit Entry"));
 
