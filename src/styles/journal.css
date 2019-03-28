@@ -2,3 +2,10 @@
     display: flex;
     flex-direction: column;
 }
+
+textarea {
+    max-height: 240px;
+    max-width: 500px;
+    min-height: 100px;
+    min-width: 140px;
+}
