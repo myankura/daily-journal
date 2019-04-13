@@ -1,17 +1,18 @@
 console.log("apiManager.js")
 
 // create a variable to store the api url
-const apiURL = "http://localhost:3000"
+const apiURL = "http://localhost:8088"
 
-// fetch data from the api
-fetch(`${apiURL}/entries`) // Fetch from the API
-    .then(response => response.json()) // Parse as JSON
-    // .then(parsedEntries => console.log(parsedEntries));
-    .then(parsedEntries => {
-        // What should happen when we finally have the array?
-        parsedEntries.forEach(entries => {
-            console.log(entries);
-        })
-    })
-
+//fetching data from the api
 const getAllEntries = () => fetch(`${apiURL}/entries`).then(response => response.json());
+
+//posting data to the api
+const postEntry = (entry) => {
+return fetch(`${apiURL}/entries`, {
+    method: "POST",
+    headers: {
+        "content-type": "application/json"
+    },
+    body: JSON.stringify(entry)
+})
+}
