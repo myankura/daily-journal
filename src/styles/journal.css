@@ -1,11 +1,11 @@
 #entry--form {
     display: flex;
     flex-direction: column;
+    max-width: 350px;
+    min-width: 350px;
 }
 
 textarea {
-    max-height: 240px;
-    max-width: 500px;
-    min-height: 240px;
-    min-width: 500px;
+    min-height: 50px;
+    min-width: 345px;
 }
