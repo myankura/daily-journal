@@ -8,7 +8,7 @@ const getAllEntries = () => fetch(`${apiURL}/entries`).then(response => response
 
 //posting data to the api
 const postEntry = (entry) => {
-return fetch(`${apiURL}/entries`, {
+return fetch("http://localhost:8088/entries", {
     method: "POST",
     headers: {
         "content-type": "application/json"

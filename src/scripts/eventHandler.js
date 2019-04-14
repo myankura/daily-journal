@@ -1,5 +1,3 @@
-// const handleSave = document.querySelector("#submit--save").addEventListener("click", event
-
 const handleSave = () => {
     const conceptInput = document.querySelector("#concept--input").value;
     const entryInput = document.querySelector("#journalEntry--input").value;
@@ -9,13 +7,14 @@ const handleSave = () => {
 
     console.log("The save button has been clicked.")
     const newEntry = {
-        concept: conceptInput,
-        entry: entryInput,
-        date: dateInput,
+        conceptsCovered: conceptInput,
+        journalEntry: entryInput,
+        journalDate: dateInput,
         mood: moodInput
     }
     console.log("new entry: ", newEntry);
     //post the entry to journal
-    postEntry();
-
+    postEntry(newEntry);
+    listJournalEntries();
+    location.reload();
 };

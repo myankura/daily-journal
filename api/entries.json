@@ -1,22 +1,123 @@
 {
   "entries": [
-  {
+    {
       "journalDate": "02/25/19",
       "conceptsCovered": "GitHub",
       "journalEntry": "Today we learned how to use GitHub for the first time.",
-      "mood": "ok"
-  },
-  {
+      "mood": "ok",
+      "id": 1
+    },
+    {
       "journalDate": "02/27/19",
       "conceptsCovered": "Working with the DOM",
       "journalEntry": "Today we started working with the DOM",
-      "mood": "ok"
-  },
-  {
+      "mood": "ok",
+      "id": 2
+    },
+    {
       "journalDate": "02/28/19",
       "conceptsCovered": "Beggining of JavaScript",
       "journalEntry": "We have officially started working with JavaScript learning about functions, objects, and loops.",
-      "mood": "ok"
-  }
-]
+      "mood": "ok",
+      "id": 3
+    },
+    {
+      "conceptsCovered": "Building DOM Components using JS",
+      "journalEntry": "We are starting to learn how to build html elements into JS components that can be called and then passing values in using string interpolation. Now the component has become modular and can be reused.",
+      "journalDate": "2019-03-05",
+      "mood": "Ok",
+      "id": 4
+    },
+    {
+      "conceptsCovered": "Getting into objects",
+      "journalEntry": "We have now start building object instead of using string interpolation to call components that can be reused.  Both work, but it seems like a better idea to just create an object because the data is easier to interpret.",
+      "journalDate": "2019-03-07",
+      "mood": "Ok",
+      "id": 5
+    },
+    {
+      "conceptsCovered": "Object State and intro to the idea of data being in a state",
+      "journalEntry": "Ok, I mentioned \"object state\" above, and you might not understand what I mean by that. Stated as simply as possible, when you hear the words object state, it means that you want to know what the values of an object's properties are at this moment in time. That means an object's state can change, i.e. property values can be reassigned.",
+      "journalDate": "2019-03-13",
+      "mood": "Ok",
+      "id": 6
+    },
+    {
+      "conceptsCovered": "Creating Components in Vanilla JavaScript",
+      "journalEntry": "Tedious work putting all of these pieces together. ",
+      "journalDate": "2019-03-15",
+      "mood": "Not sure if taco or burrito",
+      "id": 7
+    },
+    {
+      "conceptsCovered": "Working with APIs",
+      "journalEntry": "I like the idea of persistent data but I am still unsure of how to properly do fetch calls. I'm a bit confused.",
+      "journalDate": "2019-03-16",
+      "mood": "???",
+      "id": 8
+    },
+    {
+      "conceptsCovered": "Gathering information from Users",
+      "journalEntry": "Take junk and making it into meaningful data (:",
+      "journalDate": "2019-03-15",
+      "mood": "Ok",
+      "id": 9
+    },
+    {
+      "conceptsCovered": "Fetching Data",
+      "journalEntry": "Fetch calls are still a week point for me.  I'm slowly getting there. Easy does it.",
+      "journalDate": "2019-03-18",
+      "mood": "Ok",
+      "id": 10
+    },
+    {
+      "conceptsCovered": "Automation with Grunt",
+      "journalEntry": "I like the idea of making things simpler in the long run, even if it takes a little extra work to get setup in the beginning.",
+      "journalDate": "2019-03-19",
+      "mood": "Happy",
+      "id": 11
+    },
+    {
+      "conceptsCovered": "Actual modularization",
+      "journalEntry": "Making script files have one task. Makes sense to me!",
+      "journalDate": "2019-03-20",
+      "mood": "Ok",
+      "id": 12
+    },
+    {
+      "conceptsCovered": "Welcome to Nashville!",
+      "journalEntry": "Starting out on our second group project. This app is supposed to be an app for tourist and I guess locals not familiar with the area to use. It allows the user to build an itinerary for their stay in Nashville. Simple, yet surprisingly utilitarian.",
+      "journalDate": "2019-03-21",
+      "mood": "Ok",
+      "id": 13
+    },
+    {
+      "conceptsCovered": "Well that project wrapped up quickly",
+      "journalEntry": "And we're presenting. We built a finished product and it doesn't look bad.  Learned some new things about API fetch calls and using selects to gather data from the user.",
+      "journalDate": "2019-03-25",
+      "mood": "Ok",
+      "id": 14
+    },
+    {
+      "conceptsCovered": "Factory functions",
+      "journalEntry": "The chapter starts out with \"Why are you Learning This\". Should be pretty telling that this may be a pretty important part of learning front end that I should really listen to. I do like the ability to reuse functions.",
+      "journalDate": "",
+      "mood": "Ok",
+      "id": 15
+    },
+    {
+      "conceptsCovered": "Finally Daily Journal - Part 6",
+      "journalEntry": "Not gonna lie, it took me a while to get to this point. Now it's time to get caught up.",
+      "journalDate": "2019-04-13",
+      "mood": "Ok",
+      "id": 16
+    },
+    {
+      "conceptsCovered": "test",
+      "journalEntry": "test",
+      "journalDate": "2019-03-31",
+      "mood": "Happy",
+      "id": 17
+    }
+  ]
 }
