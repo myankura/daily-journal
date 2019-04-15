@@ -14,7 +14,7 @@ const handleSave = () => {
     }
     console.log("new entry: ", newEntry);
     //post the entry to journal
-    postEntry(newEntry);
-    listJournalEntries();
-    location.reload();
+    postEntry(newEntry).then(() => {
+        listJournalEntries()
+    });
 };

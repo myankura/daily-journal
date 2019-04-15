@@ -1,6 +1,4 @@
 console.log("domManager.js");
-//target the display--container from index.html
-const displayContainer = document.querySelector("#display--container");
 
 //create function to build basic elements
 const buildElement = (elementType, elementId, elementTextContent) => {
@@ -20,18 +18,32 @@ const buildOption = (optionValue, optionText) => {
     optionElement.textContent = optionText;
     return optionElement;
 }
-
+//needs legend, id, inputType
+const buildFieldset = (elementId, elementType, inputId, inputType, legendText) => {
+    const formFieldset = buildElement("fieldset");
+    formFieldset.appendChild(buildElement("legend", elementId, legendText));
+    const inputElement = buildElement(elementType);
+    inputElement.setAttribute("type", inputType);
+    inputElement.setAttribute("id", inputId);
+    formFieldset.appendChild(inputElement);
+    return formFieldset;
+}
+const moodSelection = () => {
+    let moodInput = document.querySelector("#mood--select")
+    moodInput.appendChild(buildOption("happy", "Happy"));
+    moodInput.appendChild(buildOption("ok", "Ok"));
+    moodInput.appendChild(buildOption("sad", "Sad"));
+    moodInput.appendChild(buildOption("confused", "???"));
+    moodInput.appendChild(buildOption("indifferent", "Not sure if taco or burrito"))
+    return moodInput;
+}
 
 //builds park html element utilizing build element from domManager.js
 const buildEntryHtml = entryObject => {
-    // <h3>${conceptsCovered}</h3>
-    // <p>${journalEntry}</p>
-    // <p>${journalDate}</p>
-
     const entryArticle = buildElement("article");
     entryArticle.appendChild(buildElement("h3", undefined, entryObject.conceptsCovered));
     entryArticle.appendChild(buildElement("p", undefined, entryObject.journalEntry));
     entryArticle.appendChild(buildElement("p", undefined, entryObject.journalDate));
     entryArticle.appendChild(buildElement("p", undefined, entryObject.mood));
     return entryArticle;
-  };
+};
