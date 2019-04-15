@@ -104,62 +104,6 @@
       "journalDate": "",
       "mood": "Ok",
       "id": 15
-    },
-    {
-      "conceptsCovered": "Finally Daily Journal - Part 6",
-      "journalEntry": "Not gonna lie, it took me a while to get to this point. Now it's time to get caught up.",
-      "journalDate": "2019-04-13",
-      "mood": "Ok",
-      "id": 16
-    },
-    {
-      "conceptsCovered": "test",
-      "journalEntry": "test",
-      "journalDate": "2019-03-31",
-      "mood": "Happy",
-      "id": 17
-    },
-    {
-      "conceptsCovered": "test",
-      "journalEntry": "test",
-      "journalDate": "2019-04-14",
-      "mood": "Happy",
-      "id": 18
-    },
-    {
-      "conceptsCovered": "new test",
-      "journalEntry": "test",
-      "journalDate": "2019-04-14",
-      "mood": "Happy",
-      "id": 19
-    },
-    {
-      "conceptsCovered": "test",
-      "journalEntry": "created a fieldset builder in DOM manager",
-      "journalDate": "2019-04-13",
-      "mood": "Happy",
-      "id": 20
-    },
-    {
-      "conceptsCovered": "Figured out why the Select element wasn't working",
-      "journalEntry": "Finally figured out why the select element would work for me, I'm a fucking moron.",
-      "journalDate": "2019-04-14",
-      "mood": "Not sure if taco or burrito",
-      "id": 21
-    },
-    {
-      "conceptsCovered": "test",
-      "journalEntry": "check",
-      "journalDate": "2019-04-09",
-      "mood": "Not sure if taco or burrito",
-      "id": 22
-    },
-    {
-      "conceptsCovered": "Clean page",
-      "journalEntry": "Much less read",
-      "journalDate": "2019-04-18",
-      "mood": "Not sure if taco or burrito",
-      "id": 23
     }
   ]
 }
