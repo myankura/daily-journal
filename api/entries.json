@@ -104,20 +104,6 @@
       "journalDate": "",
       "mood": "Ok",
       "id": 15
-    },
-    {
-      "conceptsCovered": "Finally Daily Journal - Part 6",
-      "journalEntry": "Not gonna lie, it took me a while to get to this point. Now it's time to get caught up.",
-      "journalDate": "2019-04-13",
-      "mood": "Ok",
-      "id": 16
-    },
-    {
-      "conceptsCovered": "test",
-      "journalEntry": "test",
-      "journalDate": "2019-03-31",
-      "mood": "Happy",
-      "id": 17
     }
   ]
 }
